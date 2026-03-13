@@ -98,3 +98,5 @@ Each tool may have additional licensing requirements for dependencies. Check ind
 Microsoft MVP | Business Central Expert | AI Enthusiast
 
 *Because sometimes the best repos are the ones that hold all the pieces that don't fit anywhere else.*
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FJeremyVyska%2Fcopilot-junk-drawer&label=VISITORS&countColor=%23263759&style=flat-square)

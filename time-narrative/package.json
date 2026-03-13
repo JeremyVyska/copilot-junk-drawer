@@ -1,0 +1,27 @@
+{
+  "name": "clockify-narrative-generator",
+  "version": "1.0.0",
+  "description": "Generate human-readable weekly narratives from Clockify AutoTrack data using AI agents",
+  "main": "extract-week.js",
+  "scripts": {
+    "extract": "node extract-week.js",
+    "extract:week": "node extract-week.js --days 7",
+    "extract:month": "node extract-week.js --days 30"
+  },
+  "keywords": [
+    "clockify",
+    "time-tracking",
+    "narrative",
+    "ai",
+    "automation",
+    "productivity"
+  ],
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "better-sqlite3": "^12.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

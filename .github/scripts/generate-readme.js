@@ -74,6 +74,20 @@ function parseToolReadme(folderName, content) {
       ],
       stack: 'Node.js, SQLite, Claude Code/AI agents',
       emoji: '⏱️'
+    },
+    'work-ingestion': {
+      name: 'work-ingestion',
+      title: 'Feature Assessment & Synthesis Framework',
+      subtitle: 'AI-powered framework for transforming rough feature requests into implementation-ready specifications',
+      description: 'Two-stage conversational AI system using inference-first questioning to refine vague ideas into polished specs. Iteratively assesses completeness, asks smart clarifying questions, and synthesizes structured output for development teams.',
+      features: [
+        'Inference-first questioning (AI proposes answers to confirm/refine)',
+        'Iterative refinement with completeness tracking (never re-asks)',
+        'Production-validated: 100+ features/month at BrightCom',
+        'Includes full Power Automate + Azure OpenAI implementation guide'
+      ],
+      stack: 'AI prompts (GPT-4/Claude), Power Automate, Azure DevOps, Teams',
+      emoji: '🎯'
     }
   };
 

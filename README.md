@@ -44,6 +44,24 @@ Extracts activity data from Clockify SQLite database, buckets into 30-minute slo
 
 ---
 
+### 🎯 [work-ingestion](work-ingestion)
+
+**AI-powered framework for transforming rough feature requests into implementation-ready specifications**
+
+Two-stage conversational AI system using inference-first questioning to refine vague ideas into polished specs. Iteratively assesses completeness, asks smart clarifying questions, and synthesizes structured output for development teams.
+
+**Key Features:**
+- Inference-first questioning (AI proposes answers to confirm/refine)
+- Iterative refinement with completeness tracking (never re-asks)
+- Production-validated: 100+ features/month at BrightCom
+- Includes full Power Automate + Azure OpenAI implementation guide
+
+**Stack:** AI prompts (GPT-4/Claude), Power Automate, Azure DevOps, Teams
+
+[📖 Full Documentation](./work-ingestion/README.md)
+
+---
+
 ## 🎨 Philosophy
 
 This repo follows the **Junk Drawer Principle**:
@@ -98,5 +116,3 @@ Each tool may have additional licensing requirements for dependencies. Check ind
 Microsoft MVP | Business Central Expert | AI Enthusiast
 
 *Because sometimes the best repos are the ones that hold all the pieces that don't fit anywhere else.*
-
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FJeremyVyska%2Fcopilot-junk-drawer&label=VISITORS&countColor=%23263759&style=flat-square)

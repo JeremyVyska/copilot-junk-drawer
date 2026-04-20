@@ -1,0 +1,132 @@
+{
+  "_comment": "Example config — customize for YOUR talk. Remove the _comment and README keys when you save your real config.",
+  "_readme": {
+    "landmarks": "Named patterns to search for. Each landmark name maps to a list of keywords/phrases. Whisper output is lowercased before matching. Keep keywords short and distinctive — 'garbage in' is better than 'garbage in garbage out' because Whisper might transcribe it slightly differently.",
+    "signature_phrases": "Specific phrases you want frequency counts for. Use these for thesis-level words like 'discipline' or 'validation' that should appear as refrains.",
+    "time_windows": "Specific time ranges you want pulled verbatim. Use these for known moments you want to read back word-for-word (openings, demos, closings, punchlines). start_sec and end_sec in seconds. buffer adds N seconds before the start."
+  },
+
+  "landmarks": {
+    "thesis_line": [
+      "the one rule",
+      "only as good as",
+      "put on their desk"
+    ],
+    "demo_1_kickoff": [
+      "design document",
+      "swagger",
+      "openapi",
+      "workflow.png"
+    ],
+    "demo_2_parker": [
+      "parker",
+      "don't trust agents",
+      "first agentic driven change"
+    ],
+    "demo_3_roger": [
+      "code intel",
+      "roger",
+      "run a code review",
+      "please"
+    ],
+    "hammer_moment": [
+      "riiiiight",
+      "riiight",
+      "building those for years",
+      "rely on your tests",
+      "validation bottleneck"
+    ],
+    "callback_intern": [
+      "fired that intern",
+      "stuffed him",
+      "desk and all",
+      "intern",
+      "disposable"
+    ],
+    "closer_line": [
+      "rate the session",
+      "i wrote it yesterday",
+      "bring your skepticism"
+    ]
+  },
+
+  "signature_phrases": [
+    "agentic",
+    "discipline",
+    "validation",
+    "review",
+    "binder",
+    "persona",
+    "role",
+    "orchestration",
+    "intern",
+    "desk",
+    "bottleneck",
+    "monday"
+  ],
+
+  "_thesis_phrases_note": "thesis_phrases are a subset of signature_phrases — the ones that CARRY YOUR THESIS. Used by psych_analysis.py to check mere-exposure repetition. Rule of thumb: a thesis phrase should appear 3+ times to benefit from mere-exposure effect. If not set, psych_analysis falls back to signature_phrases.",
+
+  "thesis_phrases": [
+    "discipline",
+    "validation",
+    "binder"
+  ],
+
+  "time_windows": [
+    {
+      "name": "Opening (first 2 min)",
+      "start_sec": 0,
+      "end_sec": 120,
+      "buffer": 0
+    },
+    {
+      "name": "The One Rule landing",
+      "start_sec": 780,
+      "end_sec": 830,
+      "buffer": 5
+    },
+    {
+      "name": "Demo 1 kickoff",
+      "start_sec": 920,
+      "end_sec": 990,
+      "buffer": 5
+    },
+    {
+      "name": "Parker setup + Demo 2",
+      "start_sec": 2520,
+      "end_sec": 2800,
+      "buffer": 5
+    },
+    {
+      "name": "Hammer / validation bottleneck",
+      "start_sec": 3200,
+      "end_sec": 3400,
+      "buffer": 5
+    },
+    {
+      "name": "Three-Question Method",
+      "start_sec": 3600,
+      "end_sec": 3900,
+      "buffer": 5
+    },
+    {
+      "name": "Demo 3 Roger + reframes",
+      "start_sec": 4380,
+      "end_sec": 4600,
+      "buffer": 5
+    },
+    {
+      "name": "The Takeaway",
+      "start_sec": 4800,
+      "end_sec": 5040,
+      "buffer": 5
+    },
+    {
+      "name": "Close (last 3 min)",
+      "start_sec": 5040,
+      "end_sec": 5210,
+      "buffer": 0
+    }
+  ]
+}

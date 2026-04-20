@@ -26,6 +26,24 @@ Complete analysis framework using git commit history to answer: "What measurable
 
 ---
 
+### 🎤 [talk-eval-kit](talk-eval-kit)
+
+**Local-first toolkit for turning talk recordings into coaching-ready transcripts, metrics, and rhetorical analysis**
+
+End-to-end analysis kit that transcribes recorded talks, computes quantitative delivery metrics, extracts key passages, and runs a psychology-informed rhetorical pass to support high-quality speaker coaching.
+
+**Key Features:**
+- Word-level timestamped transcription via faster-whisper
+- Delivery metrics: pace, fillers, pauses, and engagement markers
+- Config-driven deep passage extraction around thesis and landmarks
+- Psychological-design analysis (Cialdini, peak-end, CTA, efficacy framing)
+
+**Stack:** Python, faster-whisper, ffmpeg (optional), local AI workflows
+
+[📖 Full Documentation](./talk-eval-kit/README.md)
+
+---
+
 ### ⏱️ [time-narrative](time-narrative)
 
 **Transform raw Clockify time-tracking data into AI-generated weekly narratives**

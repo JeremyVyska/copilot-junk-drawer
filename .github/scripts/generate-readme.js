@@ -75,6 +75,20 @@ function parseToolReadme(folderName, content) {
       stack: 'Node.js, SQLite, Claude Code/AI agents',
       emoji: '⏱️'
     },
+    'talk-eval-kit': {
+      name: 'talk-eval-kit',
+      title: 'Conference Talk Evaluation Pipeline',
+      subtitle: 'Local-first toolkit for turning talk recordings into coaching-ready transcripts, metrics, and rhetorical analysis',
+      description: 'End-to-end analysis kit that transcribes recorded talks, computes quantitative delivery metrics, extracts key passages, and runs a psychology-informed rhetorical pass to support high-quality speaker coaching.',
+      features: [
+        'Word-level timestamped transcription via faster-whisper',
+        'Delivery metrics: pace, fillers, pauses, and engagement markers',
+        'Config-driven deep passage extraction around thesis and landmarks',
+        'Psychological-design analysis (Cialdini, peak-end, CTA, efficacy framing)'
+      ],
+      stack: 'Python, faster-whisper, ffmpeg (optional), local AI workflows',
+      emoji: '🎤'
+    },
     'work-ingestion': {
       name: 'work-ingestion',
       title: 'Feature Assessment & Synthesis Framework',
